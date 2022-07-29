@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+.container h1 {
+  background-color: white;
+  border: #1b165a;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #17a589;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-content: center;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: url(../../assets/fon3.jpg) no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: #1b165a;
+  font-size: 17px;
+  padding: 2px;
+  margin: auto;
+  font-family: Arial;
+}
+.about h2 {
+  text-align: center;
+  font-weight: bolder;
+  color: #17a589;
+  padding: 50px;
+  line-height: 30px;
+}
+.about #i {
+  justify-content: center;
+  align-content: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+  order: 3;
+  margin: 18px -16px;
+}
+.row,
+.row > .column {
+  padding: 18px;
+  border-radius: 5px;
+}
+.column {
+  flex: 30%;
+  align-items: center;
+  align-content: center;
+  max-width: 90%;
+  padding: 0 4px;
+  border: 1px solid #1c0a93;
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.box {
+  background-color: white;
+  padding: 50px;
+  border-radius: 5px;
+}
+.box:hover {
+  box-shadow: 3px 3px 0 #1c0a93;
+  background-color: #eee;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

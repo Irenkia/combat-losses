@@ -1,0 +1,74 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 9%;
+  padding-bottom: 0;
+  background: #fff;
+}
+.header .logo {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #17a589;
+  text-decoration: none;
+}
+
+.header .logo i {
+  color: #17a589;
+}
+.header .navbar a {
+  font-size: 1.7rem;
+  margin: 0 1rem;
+  color: #1b165a;
+  text-decoration: none;
+}
+
+.header .navbar a:hover {
+  color: #17a589;
+}
+#active {
+  color: #17a589;
+}
+
+/* @media screen and (max-width: 700px) {
+    .navbar {
+      flex-direction: column;
+    }
+  } */
+@media only screen and (max-width: 300px) {
+  .header .logo {
+    font-size: 18px;
+  }
+  .header .navbar a {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 301px) and(max-width: 620px) {
+  .content h3 {
+    font-size: 20px;
+  }
+  .header .navbar a {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 621px) and(max-width: 920px) {
+  .content h3 {
+    font-size: 30px;
+  }
+  .header .navbar a {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 921px) and(max-width: 1280px) {
+  .content h3 {
+    font-size: 40px;
+  }
+  .header .navbar a {
+    font-size: 27px;
+  }
+}
