@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/combat-losses/static/css/main.0b2919b6.css",
+    "main.js": "/combat-losses/static/js/main.c85dc692.js",
+    "static/media/fon3.jpg": "/combat-losses/static/media/fon3.48a007e9b700e109f97d.jpg",
+    "static/media/img5.jpg": "/combat-losses/static/media/img5.758146f42bca229e7e17.jpg",
+    "static/media/image1.png": "/combat-losses/static/media/image1.eeb4455d94f1ce0c2c47.png",
+    "static/media/warship.jpg": "/combat-losses/static/media/warship.72979abcaafade18dc7d.jpg",
+    "index.html": "/combat-losses/index.html",
+    "main.0b2919b6.css.map": "/combat-losses/static/css/main.0b2919b6.css.map",
+    "main.c85dc692.js.map": "/combat-losses/static/js/main.c85dc692.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b2919b6.css",
+    "static/js/main.c85dc692.js"
+  ]
+}
