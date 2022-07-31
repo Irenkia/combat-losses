@@ -1,6 +1,7 @@
 import React from "react";
 import { ENUMERATION } from "../constants/enumeration";
 import "./CSS/stylesAbout.css";
+import GeneralLosses from "./GeneralLosses";
 
 const About = () => {
   return (
@@ -24,6 +25,8 @@ const About = () => {
           );
         })}
       </div>
+
+      <GeneralLosses />
     </div>
   );
 };

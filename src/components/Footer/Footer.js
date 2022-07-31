@@ -20,7 +20,7 @@ const Footer = () => {
           </a>
           &#160;
           <a
-            href="https://irenkia.github.io/car-rental/"
+            href="https://irenkia.github.io/combat-losses/"
             target="_blank"
             rel="noreferrer"
           >
