@@ -1,20 +1,15 @@
 {
   "files": {
-    "main.css": "/combat-losses/static/css/main.c0e1001f.css",
-    "main.js": "/combat-losses/static/js/main.24a76937.js",
-    "static/media/fon3.jpg": "/combat-losses/static/media/fon3.48a007e9b700e109f97d.jpg",
+    "main.css": "/combat-losses/static/css/main.6188e0c0.css",
+    "main.js": "/combat-losses/static/js/main.b44d686e.js",
     "static/media/img5.jpg": "/combat-losses/static/media/img5.758146f42bca229e7e17.jpg",
-    "static/media/image3.png": "/combat-losses/static/media/image3.56e1693d9754386d58fe.png",
-    "static/media/image2.png": "/combat-losses/static/media/image2.af842c355f4f5a9880a5.png",
-    "static/media/image4.png": "/combat-losses/static/media/image4.8b0e46d16dd6b943fccc.png",
-    "static/media/image1.png": "/combat-losses/static/media/image1.eeb4455d94f1ce0c2c47.png",
     "static/media/warship.jpg": "/combat-losses/static/media/warship.72979abcaafade18dc7d.jpg",
     "index.html": "/combat-losses/index.html",
-    "main.c0e1001f.css.map": "/combat-losses/static/css/main.c0e1001f.css.map",
-    "main.24a76937.js.map": "/combat-losses/static/js/main.24a76937.js.map"
+    "main.6188e0c0.css.map": "/combat-losses/static/css/main.6188e0c0.css.map",
+    "main.b44d686e.js.map": "/combat-losses/static/js/main.b44d686e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0e1001f.css",
-    "static/js/main.24a76937.js"
+    "static/css/main.6188e0c0.css",
+    "static/js/main.b44d686e.js"
   ]
 }
