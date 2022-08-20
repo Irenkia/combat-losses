@@ -3,20 +3,16 @@ import "./CSS/stylesHome.css";
 
 const Home = () => {
   return (
-    <div className="home" id="home">
-      <div className="content">
-        <h3>
-          <br />
-          <span>станом на ранок 29 липня:</span>
-          <br />
-          Втрати росіян у війні проти України{" "}
-        </h3>
-        {/* <p></p> */}
-        <a href="#about" className="btn">
-          Hire now
-        </a>
-      </div>
+    <div className="content" id="home">
+      <h3>
+        <br />
+        <span>Втрати росіян у війні</span>
+        <br />
+        <span>проти України:</span>
+      </h3>
+      <div className="home"></div>
     </div>
   );
 };
 export default Home;
+

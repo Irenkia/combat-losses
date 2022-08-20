@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  align-items: center;
+  flex: 1 0 30%;
+  justify-content: flex-start;
+  font-size: 20px;
+  padding: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 40%;
+  padding: 1rem;
+}
+
+.total {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.today {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}

@@ -12,7 +12,7 @@ const Footer = () => {
         <p>
           <span>Iryna Tiutiun</span>&#160; © &#160;2022 &#160;
           <a
-            href="https://github.com/Irenkia/car-rental"
+            href="https://github.com/Irenkia/combat-losses"
             target="_blank"
             rel="noreferrer"
           >
