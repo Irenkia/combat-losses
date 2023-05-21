@@ -5,7 +5,7 @@ import "./CSS/stylesCalendar.css";
 
 const Calendar = (props) => {
   return (
-    <header className="calendar">
+    <div className="calendar">
       {props.date > new Date(2022, 1, 25) ? (
         <div
           className="arrow"
@@ -50,8 +50,7 @@ const Calendar = (props) => {
       ) : (
         <div></div>
       )}
-    </header>
+    </div>
   );
 };
 export default Calendar;
-

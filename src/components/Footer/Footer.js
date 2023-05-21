@@ -10,7 +10,8 @@ const Footer = () => {
       </div>
       <div>
         <p>
-          <span>Iryna Tiutiun</span>&#160; © &#160;2022 &#160;
+          educational project&#160;
+          <span>Iryna Tiutiun</span>&#160; © &#160;2023 &#160;
           <a
             href="https://github.com/Irenkia/combat-losses"
             target="_blank"
